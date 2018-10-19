@@ -9,6 +9,7 @@ function locateOver() {
 }
 function locateOut () {
     locateButton.classList.remove('darkgray');
+    locateText.classList.remove('white-js');
 }
 function orderOver() {
     orderButton.classList.add('darkgray');
