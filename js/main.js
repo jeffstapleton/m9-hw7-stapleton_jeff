@@ -1,11 +1,11 @@
 var locateButton = document.getElementById('location');
 
-function mouseOver() {
+function locateOver() {
     locateButton.classList.add('darkgray');
 }
-function mouseOut () {
+function locateOut () {
     locateButton.classList.remove('darkgray');
 }
 
-locateButton.addEventListener('mouseover', mouseOver);
-locateButton.addEventListener('mouseout', mouseOut);
+locateButton.addEventListener('mouseover', locateOver);
+locateButton.addEventListener('mouseout', locateOut);
