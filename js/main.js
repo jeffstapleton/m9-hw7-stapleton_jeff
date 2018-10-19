@@ -1,11 +1,11 @@
-var menuButtons = document.getElementById('step6');
+var locateButton = document.getElementById('step6');
 
 function mouseOver() {
-    menuButtons.classList.add('darkgray');
+    locateButton.classList.add('darkgray');
 }
 function mouseOut () {
-    menuButtons.classList.remove('darkgray');
+    locateButton.classList.remove('darkgray');
 }
 
-menuButtons.addEventListener('mouseover', mouseOver);
-menuButtons.addEventListener('mouseout', mouseOut);
+locateButton.addEventListener('mouseover', mouseOver);
+locateButton.addEventListener('mouseout', mouseOut);
