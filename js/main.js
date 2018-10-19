@@ -1,5 +1,7 @@
 var locateButton = document.getElementById('location');
 var orderButton = document.getElementById('order');
+var locateText = document.getElementById('location-a');
+var orderText = document.getElementById('order-a');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
