@@ -1,4 +1,4 @@
-var locateButton = document.getElementById('step6');
+var locateButton = document.getElementById('location');
 
 function mouseOver() {
     locateButton.classList.add('darkgray');
