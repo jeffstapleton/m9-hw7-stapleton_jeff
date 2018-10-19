@@ -1,0 +1,1 @@
+var menuButtons = document.getElementsByClassName('tag');
