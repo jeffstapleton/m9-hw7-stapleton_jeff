@@ -215,10 +215,6 @@ nav ul li a:hover {
     transition: 0.2s ease-in-out;
 }
 
-.darkgray {
-    background:#666;
-    font-weight: bold;
-}
 
 /* -------- MAIN SECTION -------- */
 
@@ -402,3 +398,8 @@ footer li a:hover{
         padding:2rem;
     }
 } 
+
+.darkgray {
+    background:#666!important;
+    font-weight: bold!important;
+}
