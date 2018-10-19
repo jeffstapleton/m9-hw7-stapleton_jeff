@@ -125,7 +125,7 @@ nav ul li.nav_tab_one:hover{
 }
 
 nav ul li.nav_tab_one a{
-    color:#000;
+    color:#222;
 }
 
 nav ul li.nav_tab_two{
@@ -137,14 +137,10 @@ nav ul li.nav_tab_two:hover{
 }
 
 nav ul li.nav_tab_two a{
-    color:#fff;
+    color:#222;
 }
 nav ul li.nav_tab_two a:hover{
-    color:#000;
-}
 
-nav ul li.plain_links{
-    color:#fb6f3a;
 }
 
 nav ul li.plain_links {
@@ -399,7 +395,7 @@ footer li a:hover{
 
 .darkgray {
     background:#666!important;
-    color:fff!important;
+    color:#fff!important;
 }
 .white js {
     color:#fff!important;
