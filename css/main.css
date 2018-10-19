@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css?family=PT+Sans');
 
 * {
-  font-family: 'PT Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
 }
 
 /* --------COLORS: --------
@@ -15,7 +15,6 @@ GREEN #c1e40e
 ORANGE #fb6f3a -------*/
 
 body {
-
 }
 
 /* --------- TYPOGRAPHY ELEMENTS -------- */
@@ -70,14 +69,6 @@ p {
 
     line-height:3rem;
 }
-
-/*original pre-photoshopped image attempt-
-header {
-    background:url('../img/banner-bg.png');
-    width:100%;
-    background-position: left -400px top -40px;
-height:30%;} */
-
 
 /* -------- HEADER ELEMENTS -------- */
 
