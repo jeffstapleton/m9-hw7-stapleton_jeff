@@ -5,6 +5,7 @@ var orderText = document.getElementById('order-a');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
+    locateText.classList.add('white-js');
 }
 function locateOut () {
     locateButton.classList.remove('darkgray');
