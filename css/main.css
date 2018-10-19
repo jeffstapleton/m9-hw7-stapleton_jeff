@@ -1,0 +1,408 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+* {
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* --------COLORS: --------
+GREEN #c1e40e
+ORANGE #fb6f3a -------*/
+
+body {
+
+}
+
+/* --------- TYPOGRAPHY ELEMENTS -------- */
+
+h1{
+    color:#fff;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+h2 {
+    color:#fff;
+    font-weight:400;
+}
+
+.bold {
+    font-weight:700;
+}
+
+.dark{
+    color:#111;
+}
+
+.orange{
+    color:#fb6f3a;
+}
+
+.green {
+    color: #c1e40e;
+}
+
+.white {
+    color:#fff;
+}
+
+.tan {
+    color:#d7c8b5;
+}
+
+.center {
+    text-align: center;
+}
+
+
+
+.bottom_pad {
+    padding-bottom:2rem;
+}
+
+p {
+    color:#fff;
+
+    line-height:3rem;
+}
+
+/*original pre-photoshopped image attempt-
+header {
+    background:url('../img/banner-bg.png');
+    width:100%;
+    background-position: left -400px top -40px;
+height:30%;} */
+
+
+/* -------- HEADER ELEMENTS -------- */
+
+header {
+    max-width:100%;
+    position:relative;
+    overflow:hidden;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.1));
+}
+
+header img {
+    position:absolute;
+    width:140%;
+    transform:translate(-300px,-150px);
+    overflow:hidden;
+    z-index: -1;
+}
+
+/* -------- NAV ELEMENTS -------- */
+
+nav {
+}
+
+*#mobile_nav{
+    display:none;
+}
+
+nav ul {
+    margin:0 0 0 5%;
+    list-style-type:none;
+    display:flex;
+    width:100%;
+    justify-content:center;
+}
+
+nav ul li {
+    color:#fff;
+    padding:1rem;
+    text-transform: uppercase;
+    }
+
+nav ul li.tab{
+    border-radius: 0 0 10px 10px;
+}
+
+nav ul li.nav_tab_one{
+    background:#c1e40e;
+    margin:0 .4rem 0 .4rem;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li.nav_tab_one:hover{
+    transform: scale(1.03);
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li.nav_tab_one a{
+    color:#000;
+}
+
+nav ul li.nav_tab_two{
+    background:#fb6f3a;
+}
+
+nav ul li.nav_tab_two:hover{
+    transform: scale(1.03);
+}
+
+nav ul li.nav_tab_two a{
+    color:#fff;
+}
+nav ul li.nav_tab_two a:hover{
+    color:#000;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li.plain_links{
+    color:#fb6f3a;
+}
+
+nav ul li.plain_links {
+    color:#fff;
+}
+nav ul li a {
+    font-family: 'PT Sans', sans-serif !important;
+    display: inline-block;
+    text-decoration: none !important;
+    color: #fb6f3a;
+    transition: 0.2s ease-in-out;
+}
+
+nav ul li a:hover {
+    color:#fff;
+    transition: 0.2s ease-in-out;
+}
+
+/* -------- HERO IMAGE ELEMENTS -------- */
+
+#cta_home{
+    margin:10% 0;
+    width:100%;
+    text-align:center;
+}
+
+.hero_buttons{
+    margin:2rem
+}
+.hero_buttons a, .btn, .btn-default  {
+    text-decoration:none;
+    text-transform: uppercase;
+    padding:.5rem;
+    border-radius:25px;
+}
+
+.green_transparent {
+    border: 3px solid #c1e40e;
+    text-decoration:none;
+    color: #c1e40e;
+    margin:.25rem;
+    transition: 0.2s ease-in-out;
+    background:transparent;
+    border-radius:25px;
+}
+
+.green_transparent:hover{
+    color:#000;
+    background:#c1e40e;
+    transition: 0.2s ease-in-out;
+}
+
+.orange_transparent, .btn {
+    border: 3px solid #fb6f3a !important;
+    text-decoration:none;
+    color: #fb6f3a;
+    margin:.25rem;
+    background:transparent;
+    border-radius:25px;
+    padding:.5rem;
+}
+
+.orange_transparent:hover, .btn:hover{
+    color:#000;
+    background:#fb6f3a !important;
+    transition: 0.2s ease-in-out;
+}
+
+/* -------- MAIN SECTION -------- */
+
+
+/* .flex_menu { ----- disabled this for bootstrap --
+    display:flex; 
+    flex-wrap:wrap;
+    justify-content:center;
+    align-content:center;
+    align-items:center;
+} 
+
+.flex_item {
+    margin:2px;
+    position:relative;
+    transition: all .2s ease-in-out;
+    flex:1;
+}*/
+
+.flex_item img {
+    min-width:100%;
+    padding: 0 0 10px 0;
+}
+
+.flex_item:hover {
+    transform: scale(1.03);
+    transition: all .2s ease-in-out;  
+}
+
+.flex_text{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align:center;
+}
+
+.flex_text p {
+    text-transform: uppercase;
+    font-size:1.5rem;
+}
+
+/* -------- FOOTER -------- */
+
+footer {
+    background-image:url('../img/banner-bg.png');
+    padding:2% 15%;
+    height:auto;
+    display:flex;
+    flex-direction:row;
+    align-items:flex-start;
+}
+
+footer ul {
+    list-style-type:none;
+    padding:0 1.4rem 0 0;
+    line-height:2rem;
+}
+
+footer ul img {
+    width:2rem;
+    padding:.3rem;
+}
+
+footer li a {
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#fff;
+    font-size: 1.2rem;
+    padding: 0  2rem 0 0;
+    transition: 0.2s ease-in-out;
+}
+
+footer li a:hover{
+    color:#fb6f3a;
+    transition: 0.2s ease-in-out;
+}
+
+.footer_links {
+    width:60%;
+}
+
+.footer_one {
+    display:inline-block;
+}
+
+.footer_social {
+    margin-left: auto;
+    align-items: flex-end;
+}
+
+.footer_social img{
+    transition: 0.2s ease-in-out;
+    transform:scale(2);
+    margin:
+}
+
+.footer_social img:hover{
+    transform: scale(1.1);
+    transition: 0.2s ease-in-out;
+}
+
+/* ---------- MEDIA QUERIES ---------- */
+
+
+@media screen and (max-width:1200px) {
+  
+    header img {
+        transform:translate(-200px,0);
+        min-width:120
+    }
+    #desktop {
+        display:none;
+    }
+    #mobile_nav {
+        display:block;
+    }
+    nav ul {
+        margin:0
+    }
+    .level_one{
+        border-bottom: 1px solid rgba(255,255,255,0.5);
+    }
+}
+
+@media screen and (max-width:768px) {
+        nav ul {
+        display:inline-flex;
+        flex-direction:column;
+        background:rgba(0,0,0,0.5);
+    }
+    
+    nav ul li a{
+        transform:scale(1)
+    }
+       nav ul li a:hover{
+        transform:scale(1.1);
+    }
+    
+    nav ul li.nav_tab_one,
+    nav ul li.nav_tab_two {
+        background:rgba(0,0,0,0.0);
+        transform:scale(1);
+        margin:0;
+    }
+    nav ul li.nav_tab_one:hover,
+    nav ul li.nav_tab_two:hover {
+        transform:scale(1);
+        color:#fff;
+    }
+    
+    nav ul li.nav_tab_one a,
+    nav ul li.nav_tab_two a {
+    color:#c1e40e;
+    }
+    
+    nav ul li.nav_tab_one a:hover,
+    nav ul li.nav_tab_two a:hover {
+        color:#fff;
+    }
+    
+    .level_one{
+        border-bottom: 1px solid rgba(255,255,255,0.0);
+        
+    }
+    header {
+        height:100%;
+        background:rgba(0,0,0,0.4);
+    }
+    
+    header img {
+        transform:translate(0,0);
+        min-width:120%;
+        object-fit:cover;
+        height:100%;
+        
+    }
+    #cta_home p{
+        line-height:1.4rem;
+        padding:2rem;
+    }
+} 

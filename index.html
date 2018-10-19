@@ -1,0 +1,193 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Sammy's Sammiches | The Best Sandwiches in Gainesville, Florida</title>
+    
+    <meta name="description" content="Do you want the best sandwich you can find in Gainesville? Ever had a Gator Sandwich? Don't believe us? Come in today and see for yourself!">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/main.css">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+</head>
+    <body>
+        <header>
+            <img src="img/banner-bg.png" alt="Authentic Sammy's Sammich"/>
+            
+            <!-------------- DESKTOP NAV ----------->
+            
+            <nav id="desktop">
+                <ul>
+                    <li class="plain_links"><a href="#">Our Story</a></li>
+                    <li class="plain_links"><a href="#">Nutrititon</a></li>
+                    <li class="plain_links"><a href="#">Menu</a></li>
+                    <li class="tab nav_tab_one"><a href="#">Find a Location</a></li>
+                    <li class="tab nav_tab_two"><a href="#">Order Now</a></li>
+                </ul>
+            </nav>
+            
+            <!-------- MOBILE NAV -------->
+            
+            <nav id="mobile_nav">
+                <ul class="level_one">
+                    <li class="plain_links"><a href="#">Our Story</a></li>
+                    <li class="plain_links"><a href="#">Nutrititon</a></li>
+                    <li class="plain_links"><a href="#">Menu</a></li>
+                </ul>
+                <ul class="level_two">
+                    <li class="tab nav_tab_one"><a href="#">Find a Location</a></li>
+                    <li class="tab nav_tab_two"><a href="#">Order Now</a></li>
+                </ul>
+            </nav>
+            
+            <!-------------- HERO ELEMENTS ----------->
+            
+            <div id="cta_home">
+                <h1>Sammy's <span class="bold">Sammiches</span></h1>
+                <p class="tan">Good for the body, soul, wallet, and environment</p>
+                <div class="hero_buttons">
+                    <a href="#" class="green_transparent">Contact Us</a>
+                    
+                    <!--BEGIN MODAL -->
+                    
+                    <button type="button" class="orange_transparent btn btn-info" data-toggle="modal" data-target="#myModal">Order Online</button>
+                    
+                    <!-- Modal -->
+                    <div class="modal fade" id="myModal" role="dialog">
+                        <div class="modal-dialog">
+                        
+                            <!-- Modal Content -->
+                            
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    <h4 class="modal-title">Order Online</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <p class="dark">We appreciate your willingness to contact us. Unfortunately, we are not accepting orders at this time. We are flattered you have clicked, but we are - in fact - a fictional operation. Perhaps you'd like to play the game "Operation" instead?</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-------------- MAIN SECTION ----------->
+        
+        <section id="main">
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+            
+                    <h1 class="dark center bottom_pad display-4">Sammy's <span class="bold">Sammiches</span></h1>
+            
+                    <p class="orange center small bottom_pad lead">Good for the body, soul, wallet, and environment</p>
+                    
+                </div>
+            </div>
+
+            <!-------------- FLEXBOX MAIN LINKS ----------->
+          
+            <div class="container-fluid"> <!--begin bootstrap container-->
+                <div class="row">
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4">
+                        <a href="#"><img src="img/story-bg.png" alt="Sammy's Sammich Story"/></a>
+                        <div class="flex_text">
+                            <h2 class="white">Sammy's <span class="bold">Story</span></h2>
+                            <p>Learn More</p>
+                        </div>
+                    </div>
+
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4">
+                        <a href="#"><img src="img/menu-bg.png" alt="Sammy's Sammiches Menu Items"/></a>
+                        <div class="flex_text">
+                            <h2 class="white">Sammich <span class="bold">Menu</span></h2>
+                            <p>View Now</p>
+                        </div>
+                    </div>
+
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4">
+                        <a href="#"><img src="img/order-bg.png" /></a>
+                        <div class="flex_text">
+                            <h2 class="white">Order <span   class="bold">Online</span></h2>
+                            <p>Order Now</p>
+                        </div>
+                    </div>
+
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4"> 
+                        <a href="#"><img src="img/auburn-bg.png" /></a>
+                        <div class="flex_text">
+                            <h2>Your <span class="bold">Sammys</span></h2>
+                            <p>In Auburn</p>
+                        </div>
+                    </div>
+
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4">
+                        <a href="#"><img src="img/alabama-bg.png" /></a>
+                        <div class="flex_text">
+                            <h2>Your <span class="bold">Sammys</span></h2>
+                            <p>In Tuscaloosa</p>
+                        </div>
+
+                    </div>
+
+                    <div class="flex_item col-xs-12 col-sm-6 col-lg-4">
+                        <a href="#"><img src="img/florida-bg.png" /></a>
+                        <div class="flex_text">
+                            <h2>Your <span class="bold">Sammys</span></h2>
+                            <p>In Gainesville</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            
+        <footer>
+            <div class="footer_links small">
+                <h3 class="orange">Sammy's Sammiches</h3>
+                <div class="footer_one">
+                <ul>
+                    <li><a href="#">Our story</a></li>
+                    <li><a href="#">Job Openings</a></li>
+                    <li><a class="green" href="#">Locations</a></li>
+                    </ul>
+                </div>
+                <div class="footer_one">
+                    <ul>
+                        <li><a href="#">Nutritions</a></li>
+                        <li><a href="#">Menu</a></li><br />
+                    </ul>
+                </div>
+                <div class="footer_one">
+                    <ul>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">Order</a></li><br>
+                    </ul>
+                </div>
+            </div>
+              
+            <div class="footer_social">
+                <h3 class="orange">Follow Sammy</h3>
+                <ul>
+                    <a href="#"><img src="img/twitter-icon.png" /></a>
+                    <a href="#"><img src="img/instagram-icon.png"></a>
+                    <a href="#"><img href="#" src="img/facebook-icon.png"></a>
+                    <a href="#"><img href="#" src="img/pinterest-icon.png"></a>
+                </ul>
+            </div>
+        
+        </footer>
+
+     
+    </body>
+</html>
