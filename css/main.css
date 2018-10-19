@@ -50,9 +50,7 @@ h2 {
     color:#fff;
 }
 
-.white js {
-    color:#fff!important;
-}
+
 
 .tan {
     color:#d7c8b5;
@@ -401,4 +399,8 @@ footer li a:hover{
 
 .darkgray {
     background:#666!important;
+    color:fff!important;
+}
+.white js {
+    color:#fff!important;
 }
