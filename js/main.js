@@ -3,6 +3,8 @@ var orderButton = document.getElementById('order');
 var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 
+var dropDown = document.getElementsByClassName('city');
+
 function locateOver() {
     locateButton.classList.add('darkgray');
     locateText.classList.add('white-js');
