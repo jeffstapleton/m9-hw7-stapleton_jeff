@@ -13,9 +13,11 @@ function locateOut () {
 }
 function orderOver() {
     orderButton.classList.add('darkgray');
+    orderText.classList.add('white-js');
 }
 function orderOut () {
     orderButton.classList.remove('darkgray');
+    orderText.classList.remove('white-js');
 }
 
 locateButton.addEventListener('mouseover', locateOver);
