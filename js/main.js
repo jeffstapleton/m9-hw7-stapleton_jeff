@@ -3,7 +3,7 @@ var orderButton = document.getElementById('order');
 var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 
-var dropDownButton = document.getElementById('location-nav');
+var dropDownButton = document.getElementById('location-container');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
