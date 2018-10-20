@@ -52,6 +52,7 @@ h2 {
 
 .white-js {
     color:#fff!important;
+    transition: .6s;
 }
 
 .tan {
@@ -395,5 +396,6 @@ footer li a:hover{
 
 .darkgray {
     background:#666!important;
-    color:#fff!important;
+    transition: .6s;
+    
 }
