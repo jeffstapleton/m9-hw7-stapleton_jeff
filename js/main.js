@@ -23,6 +23,10 @@ function orderOut () {
     orderText.classList.remove('white-js');
 }
 
+function navDropDown() {
+    dropDownButton.classList.toggle('show-nav');
+}
+
 locateButton.onclick = navDropDown;
 
 locateButton.addEventListener('mouseover', locateOver);
