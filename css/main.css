@@ -91,6 +91,11 @@ header img {
 
 /* -------- NAV ELEMENTS -------- */
 
+#location-container {
+    height:0;
+    overflow:hidden;
+}
+
 nav {
 }
 
