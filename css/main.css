@@ -96,6 +96,11 @@ header img {
     overflow:hidden;
 }
 
+.show-nav {
+    height:40px!important;
+    transition:height .6s;
+}
+
 nav {
 }
 
