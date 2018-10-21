@@ -4,6 +4,7 @@ var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 var locateDrop = document.getElementById('location-container');
 var dropDownButton = document.getElementById('location-container');
+var images = document.querySelector('#js-opacity > img');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
