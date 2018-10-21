@@ -3,7 +3,6 @@ var orderButton = document.getElementById('order');
 var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 var locateDrop = document.getElementById('location-container');
-
 var dropDownButton = document.getElementById('location-container');
 
 function locateOver() {
@@ -28,7 +27,6 @@ function navDropDown() {
 }
 
 locateButton.onclick = navDropDown;
-
 locateButton.addEventListener('mouseover', locateOver);
 locateButton.addEventListener('mouseout', locateOut);
 orderButton.addEventListener('mouseover', orderOver);
