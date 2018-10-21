@@ -102,6 +102,10 @@ header img {
     transition:height .6s;
 }
 
+.js-hover {
+    opacity:0.7;
+}
+
 nav {
 }
 
