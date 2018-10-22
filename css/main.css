@@ -411,6 +411,6 @@ footer li a:hover{
 }
 
 .js-hover {
-    background-color:white;
-    opacity:0.3;
+    background-color:white!important;
+    opacity:0.3!important;
 }
