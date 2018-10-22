@@ -4,7 +4,7 @@ var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 var locateDrop = document.getElementById('location-container');
 var dropDownButton = document.getElementById('location-container');
-var grids = document.getElementById('js-opacity');
+var grids = document.querySelectorAll('#grid1, #grid2, #grid3, #grid4, #grid5, #grid6');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
