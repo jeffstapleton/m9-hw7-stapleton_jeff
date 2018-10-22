@@ -4,8 +4,7 @@ var locateText = document.getElementById('location-a');
 var orderText = document.getElementById('order-a');
 var locateDrop = document.getElementById('location-container');
 var dropDownButton = document.getElementById('location-container');
-var container = document.getElementbyId("grid")
-var hoverImages = document.getElementsByClassName('js-opacity');
+var grids = document.getElementById('js-opacity');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
@@ -27,10 +26,10 @@ function navDropDown() {
     dropDownButton.classList.toggle('show-nav');
 }
 function overGrid() {
-    hoverImages.classList.add('js-hover');
+    grids.classList.add('js-hover');
 }
 function outGrid() {
-    hoverImages.classList.remove('js-hover');
+    grids.classList.remove('js-hover');
 }
 
 
@@ -40,5 +39,5 @@ locateButton.addEventListener('mouseout', locateOut);
 orderButton.addEventListener('mouseover', orderOver);
 orderButton.addEventListener('mouseout', orderOut);
 locateButton.onclick = navDropDown;
-hoverImages.addEventListener('mouseover', overGrid);
-hoverImages.addEventListener('mouseout', outGrid);
+grids.addEventListener('mouseover', overGrid);
+grids.addEventListener('mouseout', outGrid);
