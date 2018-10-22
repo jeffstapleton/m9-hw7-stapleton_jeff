@@ -10,6 +10,7 @@ var grid2 = document.getElementById('grid2');
 var grid3 = document.getElementById('grid3');
 var grid4 = document.getElementById('grid4');
 var grid5 = document.getElementById('grid5');
+var grid6 = document.getElementById('grid6');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
@@ -60,6 +61,12 @@ function overGrid5() {
 function outGrid5() {
     grid5.classList.remove('js-hover');
 }
+function overGrid6() {
+    grid6.classList.add('js-hover');
+}
+function outGrid6() {
+    grid6.classList.remove('js-hover');
+}
 
 
 locateButton.addEventListener('mouseover', locateOver);
@@ -77,3 +84,5 @@ grid4.addEventListener('mouseover', overGrid4);
 grid4.addEventListener('mouseout', outGrid4);
 grid5.addEventListener('mouseover', overGrid5);
 grid5.addEventListener('mouseout', outGrid5);
+grid6.addEventListener('mouseover', overGrid6);
+grid6.addEventListener('mouseout', outGrid6);
