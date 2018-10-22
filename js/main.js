@@ -27,6 +27,8 @@ function navDropDown() {
     dropDownButton.classList.toggle('show-nav');
 }
 
+
+images.addEventListener('mouseOver', overGrid)
 locateButton.onclick = navDropDown;
 locateButton.addEventListener('mouseover', locateOver);
 locateButton.addEventListener('mouseout', locateOut);
