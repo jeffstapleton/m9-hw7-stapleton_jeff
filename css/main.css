@@ -102,10 +102,6 @@ header img {
     transition:height .6s;
 }
 
-.js-hover {
-    opacity:0.7;
-}
-
 nav {
 }
 
@@ -411,6 +407,9 @@ footer li a:hover{
 
 .darkgray {
     background:#666!important;
-    transition: .6s;
-    
+    transition: .6s;   
+}
+
+.js-hover {
+    color:#333 !important;
 }
