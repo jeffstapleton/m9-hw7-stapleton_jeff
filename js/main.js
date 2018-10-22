@@ -22,13 +22,14 @@ function orderOut () {
     orderButton.classList.remove('darkgray');
     orderText.classList.remove('white-js');
 }
-
 function navDropDown() {
     dropDownButton.classList.toggle('show-nav');
 }
+function overGrid() {
+    images.classList.add('js-hover');
+}
 
-
-images.addEventListener('mouseOver', overGrid)
+images.addEventListener('mouseOver', overGrid);
 locateButton.onclick = navDropDown;
 locateButton.addEventListener('mouseover', locateOver);
 locateButton.addEventListener('mouseout', locateOut);
