@@ -412,4 +412,5 @@ footer li a:hover{
 
 .js-hover {
     opacity:0.7!important;
+    transition: .5s!important;
 }
