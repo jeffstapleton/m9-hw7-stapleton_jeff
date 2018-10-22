@@ -7,6 +7,7 @@ var dropDownButton = document.getElementById('location-container');
 
 var grid1 = document.getElementById('grid1');
 var grid2 = document.getElementById('grid2');
+var grid3 = document.getElementById('grid3');
 
 function locateOver() {
     locateButton.classList.add('darkgray');
@@ -39,6 +40,12 @@ function overGrid2() {
 function outGrid2() {
     grid2.classList.remove('js-hover');
 }
+function overGrid3() {
+    grid3.classList.add('js-hover');
+}
+function outGrid3() {
+    grid3.classList.remove('js-hover');
+}
 
 
 locateButton.addEventListener('mouseover', locateOver);
@@ -50,3 +57,5 @@ grid1.addEventListener('mouseover', overGrid);
 grid1.addEventListener('mouseout', outGrid);
 grid2.addEventListener('mouseover', overGrid2);
 grid2.addEventListener('mouseout', outGrid2);
+grid3.addEventListener('mouseover', overGrid3);
+grid3.addEventListener('mouseout', outGrid3);
