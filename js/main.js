@@ -68,7 +68,6 @@ function outGrid6() {
     grid6.classList.remove('js-hover');
 }
 
-
 locateButton.addEventListener('mouseover', locateOver);
 locateButton.addEventListener('mouseout', locateOut);
 orderButton.addEventListener('mouseover', orderOver);
